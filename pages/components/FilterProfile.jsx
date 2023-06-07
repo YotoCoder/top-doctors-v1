@@ -40,7 +40,7 @@ const filters = [
   },
   {
     id: 'size',
-    name: 'Size',
+    name: 'Precio',
     options: [
       { value: '2l', label: '2L', checked: false },
       { value: '6l', label: '6L', checked: false },
@@ -164,7 +164,7 @@ export default function Example() {
 
         <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex items-baseline justify-between border-b border-gray-200 pb-6 pt-2">
-            <h1 className="text-2xl font-bold tracking-tight text-gray-900">Programadores</h1>
+            <h1 className="text-2xl font-bold tracking-tight text-gray-900">Doctores</h1>
 
             <div className="flex items-center">
               <Menu as="div" className="relative inline-block text-left">
